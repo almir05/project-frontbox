@@ -111,6 +111,16 @@ img {
 	color: #FFF;
 }
 
+@media (max-width: 800px) {
+	.nav__link {
+		transition: none;
+	}
+
+	.nav__link:hover {
+		color: black;
+	}
+}
+
 /**********************************/
 /* 3. Header
 /**********************************/
@@ -321,6 +331,13 @@ img {
 
 	.plano:nth-child(2) {
 		order: -1
+	}
+	.plano__btn-comprar {
+		transition: none;
+	}
+
+	.plano__btn-comprar:hover {
+		color: black;
 	}
 }
 
